@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#define BLOCK_SIZE 16
+#define BLOCK_SIZE 32
 
 __global__ void gpu_matrix_mult(int* a, int* b, int* c, int m, int n, int k)
 {
